@@ -1,0 +1,505 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "schema-title-2042622",
+    "description": "",
+    "additionalProperties": false,
+    "properties": {
+        "REPORTID": {
+            "type": "string"
+        },
+        "ASSET_ID": {
+            "type": "string"
+        },
+        "TENANT_ID": {
+            "type": "number"
+        },
+        "OBSERVATION_TIMESTAMP": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "STARTTIME": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time"
+        },
+        "ENDTIME": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time"
+        },
+        "EVENT_START_TIME": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time"
+        },
+        "MACHINE_RUNNING_HOURS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TRANSMISSION_HOURS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "DISTANCE_TRAVELLED": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "MACHINE_SPEED": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_OIL_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_RPM": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_OIL_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_COOLANT_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_FUEL_RATE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_COOLER_PUMP_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_INTAKE_MANIFOLD_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_INTAKE_MANIFOLD_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_LOAD": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_TORQUE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ACTUAL_GEAR": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "SELECTED_GEAR": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "PARKING_BRAKE_ON": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_RUNNING": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "CONVERTER_LOCK_UP": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_CONVERTER_LOCK_UP_COUNT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_2ND_GEAR_REVERSE_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_1ST_GEAR_REVERSE_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_NEUTRAL_GEAR_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_1ST_GEAR_FORWARD_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_2ND_GEAR_FORWARD_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_3RD_GEAR_FORWARD_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_4TH_GEAR_FORWARD_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_5TH_GEAR_FORWARD_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "AMBIENT_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "HYDRAULIC_OIL_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "BRAKE_HYDRAULIC_OIL_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "BRAKE_CIRCUIT_CHARGING_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "BOX_AND_STEERING_PUMP_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "FRONT_AXLE_BRAKE_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "REAR_AXLE_BRAKE_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TRANSMISSION_OIL_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TRANSMISSION_OIL_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TRANSMISSION_RETARDER_ACTIVE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TRANSMISSION_RETARDER_CONTROL": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "NUMBER_OF_BOXES": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "WEIGHING_RESULT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "IDLE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "OPERATIONAL": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "OPERATOR": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "UTILIZATION": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_PRESSURE_FRONT_LEFT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_PRESSURE_FRONT_RIGHT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_PRESSURE_REAR_LEFT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_PRESSURE_REAR_RIGHT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_FUEL_TANK_LEVEL_PERCENTAGE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "BOOM_AND_BUCKET_PUMP_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_TEMPERATURE_REAR_LEFT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_TOTAL_FUEL_USED": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_TEMPERATURE_FRONT_LEFT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_RUNNING_HOURS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "NUMBER_OF_BUCKETS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "STEERING_PUMP_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_TEMPERATURE_REAR_RIGHT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TIRE_TEMPERATURE_FRONT_RIGHT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "THROTTLE_PEDAL_POSITION": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "THROTTLE_REQUEST": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "AUTOMATIC_GEARBOX_MODE_ON": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "DPF_PRESSURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "DPF_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "DROPBOX_OIL_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "ENGINE_CATALYST_TANK_LEVEL": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TOTAL_6TH_GEAR_FORWARD_SELECTIONS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "TRANSMISSION_RETARDER_OUTPUT_OIL_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "UPBOX_OIL_TEMPERATURE": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "LONGITUDINAL_INCLINATION": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "LATERAL_INCLINATION": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "AUTOMATION_MODE_HOURS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "MANUAL_MODE_HOURS": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "AUTOMATION_MODE_ON": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "MANUAL_MODE_ON": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "BOX_DOWN": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "WEIGHING_AVERAGE_SHORT": {
+            "type": [
+                "number",
+                "null"
+            ]
+        }
+    }
+}
