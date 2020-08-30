@@ -38,8 +38,6 @@ console.log(data.title)
 
 
 
-
-
 /*
 
 //book is an javascript object and it has 2 properties - title and author and we can access them by saying - book.title & book.author
